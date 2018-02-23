@@ -86,25 +86,28 @@ li.active:before {
   padding: 40px;
 }
 
-.tittle-section h3{
+.tittle-section h3
+{
 	text-align: center;
 	/* text-transform: uppercase; */
 	color: white;
-	letter-spacing: 8px;
+	letter-spacing: 4px;
 	font-size: 24px;
 	line-height: 40px;
 }
 
-.tittle-section{
+.tittle-section
+{
 	margin-bottom: 70px;
 	margin-top: 50px;
 }
 
-.subtittle-section h3{
+.subtittle-section h3
+{
 	text-align: center;
 	/* text-transform: uppercase; */
 	color: white;
-	letter-spacing: 8px;
+	letter-spacing: 4px;
 	font-size: 22px;
 	line-height: 40px;
 }
@@ -1387,11 +1390,12 @@ transform: translate(0px,0px);
   border-radius: 4px;
 }
 
-.tittle-section h3 {
+.tittle-section h3
+{
   text-align: center;
   /* text-transform: uppercase; */
   color: white;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   font-size: 16px;
   line-height: 22px;
 }
@@ -1401,11 +1405,12 @@ transform: translate(0px,0px);
   margin-top: 0px !important;
 }
 
-.subtittle-section h3 {
+.subtittle-section h3
+{
     text-align: center;
     /* text-transform: uppercase; */
     color: white;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
     font-size: 16px;
     line-height: 22px;
 }
