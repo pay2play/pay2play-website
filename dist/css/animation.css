@@ -17,7 +17,7 @@
 }
 
 
-.menu-hover-lines li::before { 
+.menu-hover-lines li::before {
     content: " ";
 
 height: 2px;
@@ -30,9 +30,9 @@ display: none;
 }
 
 
- .navbar-nav li a::hover { 
+ .navbar-nav li a::hover {
     display: block;
-    
+
 }
 
 .navbar{
@@ -69,7 +69,7 @@ line-height: 40px;
 
 .tittle-section{
 	margin-bottom: 70px;
-	margin-top: 50px; 
+	margin-top: 50px;
 
 }
 
@@ -85,7 +85,7 @@ line-height: 40px;
 
 .subtittle-section{
 	margin-bottom: 70px;
-	margin-top: 50px; 
+	margin-top: 50px;
 
 }
 
@@ -146,7 +146,7 @@ border-color: orange !important;
 
 .white-section .table-list p {
     color: black !important;
-   
+
     padding-top: 15px;
 }
 
@@ -211,17 +211,17 @@ letter-spacing: 2px;
     margin: 62px 30px 24px;
 }
 
-.footer-social-icons:after{
-    content: url(../../images/angel_logo.png);
+.footer-social-icons:after
+{
+    content: url(../../images/icon-angel-pay2play.png);
     display: block;
     margin: 39px auto 20px;
     position: relative;
     /* text-align: center; */
-    width: 100%;
     position: absolute;
     top: 0px;
     right: -77px;
-
+		width: 96px;
 }
 blockquote {
     padding: 10px 20px;
@@ -337,7 +337,7 @@ color: #006aae;
 }
 
 .form-control {
-    
+
     height: 45px;
 }
 
@@ -359,7 +359,7 @@ color: #006aae;
     text-align: center;
     width: 100%;
     position: absolute;
-  
+
 top: -100px;
 }
 #co2:before {
@@ -370,7 +370,7 @@ top: -100px;
     text-align: center;
     width: 100%;
     position: absolute;
-    
+
 top: -100px;
 }
 #co3:before {
@@ -381,7 +381,7 @@ top: -100px;
     text-align: center;
     width: 100%;
     position: absolute;
-    
+
 top: -100px;
 }
 
@@ -404,7 +404,7 @@ top: -100px;
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: #6d5d95;
-   
+
 }
 
  footer .form-control {
@@ -442,7 +442,7 @@ top: -100px;
 }
 
 .panel {
-   
+
     box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
 }
 
@@ -550,7 +550,7 @@ footer .fa-facebook:hover {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    
+
 }
 footer .fa-twitter:hover {
     background-color: #00aced;
