@@ -436,9 +436,10 @@ blockquote {
 	border-color: #b66ba3;
 }
 
-.contact-form-container label{
+.contact-form-container label
+{
 	color: #777f88 !important;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
