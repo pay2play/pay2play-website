@@ -1,5 +1,5 @@
 # SYNC WEBPAGE
-aws s3 sync ~/Desktop/HOSTAPP/PAY2PLAY/website/pay2play s3://pay2play.io --exclude ".git/*" --acl public-read --profile playent
+aws s3 sync ~/Desktop/HOSTAPP/PAY2PLAY/website s3://pay2play.io --exclude ".git/*" --acl public-read --profile playent
 
 <!-- wget https://playent.s3.amazonaws.com/intaract/setup_1.sh && chmod u+x setup_1.sh && source ./setup_1.sh
 
