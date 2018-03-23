@@ -92,10 +92,9 @@ line-height: 40px;
 .table-tittle{
 	background: orange;
 
-padding-left: 11px;
-padding-top: 11px;
-padding-bottom: 1px;
-
+	padding-left: 11px;
+	padding-top: 11px;
+	padding-bottom: 1px;
 }
 
 .table-container{
