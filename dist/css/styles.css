@@ -307,7 +307,6 @@ blockquote {
     }
 }
 
-
 .jssorb032 {position:absolute;}
 .jssorb032 .i {position:absolute;cursor:pointer;}
 .jssorb032 .i .b {fill:#fff;fill-opacity:0.7;stroke:#000;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.25;}
@@ -328,7 +327,8 @@ blockquote {
 	margin-top: 40px;
 }
 
-.footer-bs {
+.footer-bs
+{
 	background-color: #117fad;
 	padding: 60px 40px;
 	color: rgba(255,255,255,1.00);
@@ -406,19 +406,27 @@ blockquote {
 	height: 45px;
 }
 
-#co, #co2, #co3{
+#co, #co2, #co3, #co-developers
+{
 	position: relative;
 }
 
-#co{
+#co, #co-developers
+{
   top: -2px;
 }
-#co2, #co3, #co1{
+
+#co2, #co3, #co1, #co-developers
+{
 	padding-top: 30px;
 	padding-bottom: 30px;
   top: -10px ;
 }
 
+#co3
+{
+    background-image: unset;
+}
 
 #co:before {
   content: url("../../images/before1.png");
@@ -429,6 +437,18 @@ blockquote {
   width: 100%;
   position: absolute;
 	top: -110px;
+}
+
+#co-developers:before
+{
+    content: url("../../images/spacer-dot-developers-1.png");
+    display: block;
+    margin: 60px auto 24px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+		top: -100px;
 }
 
 #co2:before {
@@ -606,7 +626,8 @@ ul#horizontal-list li {
   color: #fff;
   text-decoration: none;
 }
- footer.fa-facebook {
+
+footer.fa-facebook {
   padding:10px 14px;
   -o-transition:.5s;
   -ms-transition:.5s;
@@ -1474,10 +1495,6 @@ transform: translate(0px,0px);
 .our-container {
     margin-right: 0% !important;
 }
-#co3{
-    background-image: unset;
-}
-
 
 .our-container {
     margin-bottom: 90px;
@@ -1492,7 +1509,13 @@ transform: translate(0px,0px);
 
 }
 
-
 .navbar-inverse .navbar-toggle {
     border-color: #0269ae;
+}
+
+/* Developers */
+
+.infographic-text
+{
+	fill: white;
 }
