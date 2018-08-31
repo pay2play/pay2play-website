@@ -75,48 +75,82 @@ $(function() {
       $('.cls-7').addClass('cls-7-show');
   }
 
-  $(window).scroll(function() {
-    // This is then function used to detect if the element is scrolled into view
-    function elementScrolled(elem) {
-        var docViewTop = $(window).scrollTop();
-        var docViewBottom = docViewTop + $(window).height();
-        var elemTop = $(elem).offset().top;
-        return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
-    }
+  var aas = true;
 
-    var aas=true;
-    var size=$( window ).width();
-    // This is where we use the function to detect if ".box2" is scrolled into view, and when it is add the class ".animated" to the <p> child element
-    if(elementScrolled('#cog')||size<=1025) {
-        if(aas==true) {
-          aas=false;
-          setTimeout(animationStart, 250);
-          setTimeout(circulo1, 500);
-          setTimeout(texts1, 700);
-          setTimeout(circulo2, 500);
-          setTimeout(hand1, 1400);
-          setTimeout(dolarsign1, 1400);
-          setTimeout(wintext, 1400);
-          setTimeout(circulo3, 750);
-          setTimeout(dls5, 1700);
-          setTimeout(coindls5, 1700);
-          setTimeout(coinsign2, 1700);
-          setTimeout(coinsign2, 1700);
-          setTimeout(circulo8, 1000);
-          setTimeout(textplay, 2000);
-          setTimeout(circulo6, 1500);
-          setTimeout(token, 2300);
-          setTimeout(dolarsign2, 2300);
-          setTimeout(losetext, 2300);
-          setTimeout(circulo7, 1750);
-          setTimeout(playone, 2500);
-          setTimeout(playtwo, 2500);
-          setTimeout(handcoin, 2500);
-          setTimeout(circulo5, 2000);
-          setTimeout(bills, 2700);
-          setTimeout(circulo4, 2250);
-          setTimeout(circuloimg, 2500);
-        }
-      }
-  });
+  if (aas == true) {
+    aas = false;
+    
+    setTimeout(animationStart, 250);
+    setTimeout(circulo1, 500);
+    setTimeout(texts1, 700);
+    setTimeout(circulo2, 500);
+    setTimeout(hand1, 1400);
+    setTimeout(dolarsign1, 1400);
+    setTimeout(wintext, 1400);
+    setTimeout(circulo3, 750);
+    setTimeout(dls5, 1700);
+    setTimeout(coindls5, 1700);
+    setTimeout(coinsign2, 1700);
+    setTimeout(coinsign2, 1700);
+    setTimeout(circulo8, 1000);
+    setTimeout(textplay, 2000);
+    setTimeout(circulo6, 1500);
+    setTimeout(token, 2300);
+    setTimeout(dolarsign2, 2300);
+    setTimeout(losetext, 2300);
+    setTimeout(circulo7, 1750);
+    setTimeout(playone, 2500);
+    setTimeout(playtwo, 2500);
+    setTimeout(handcoin, 2500);
+    setTimeout(circulo5, 2000);
+    setTimeout(bills, 2700);
+    setTimeout(circulo4, 2250);
+    setTimeout(circuloimg, 2500);
+  }
+
+  // $(window).scroll(function() {
+  //   // This is then function used to detect if the element is scrolled into view
+  //   function elementScrolled(elem) {
+  //     var docViewTop = $(window).scrollTop();
+  //     var docViewBottom = docViewTop + $(window).height();
+  //     var elemTop = $(elem).offset().top;
+  //     return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
+  //   }
+  //
+  //   var aas = true;
+  //   var size=$( window ).width();
+  //
+  //   // This is where we use the function to detect if ".box2" is scrolled into view, and when it is add the class ".animated" to the <p> child element
+  //   if (elementScrolled('#cog')) {
+  //     if(aas == true) {
+  //       aas = false;
+  //       setTimeout(animationStart, 250);
+  //       setTimeout(circulo1, 500);
+  //       setTimeout(texts1, 700);
+  //       setTimeout(circulo2, 500);
+  //       setTimeout(hand1, 1400);
+  //       setTimeout(dolarsign1, 1400);
+  //       setTimeout(wintext, 1400);
+  //       setTimeout(circulo3, 750);
+  //       setTimeout(dls5, 1700);
+  //       setTimeout(coindls5, 1700);
+  //       setTimeout(coinsign2, 1700);
+  //       setTimeout(coinsign2, 1700);
+  //       setTimeout(circulo8, 1000);
+  //       setTimeout(textplay, 2000);
+  //       setTimeout(circulo6, 1500);
+  //       setTimeout(token, 2300);
+  //       setTimeout(dolarsign2, 2300);
+  //       setTimeout(losetext, 2300);
+  //       setTimeout(circulo7, 1750);
+  //       setTimeout(playone, 2500);
+  //       setTimeout(playtwo, 2500);
+  //       setTimeout(handcoin, 2500);
+  //       setTimeout(circulo5, 2000);
+  //       setTimeout(bills, 2700);
+  //       setTimeout(circulo4, 2250);
+  //       setTimeout(circuloimg, 2500);
+  //     }
+  //   };
+  // });
 });

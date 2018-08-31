@@ -104,7 +104,6 @@ li.active:before {
 	text-align: center;
 	/* text-transform: uppercase; */
 	color: white;
-	letter-spacing: 4px;
 	font-size: 24px;
 	line-height: 40px;
 }
@@ -120,7 +119,6 @@ li.active:before {
 	text-align: center;
 	/* text-transform: uppercase; */
 	color: white;
-	letter-spacing: 4px;
 	font-size: 22px;
 	line-height: 40px;
 }
@@ -1271,7 +1269,6 @@ transform: translate(0px,0px);
 
 .white-section{
   background-color: white;
-	background-image: url(../../images/bg4.jpg);
 	background-position: right top;
 	background-repeat: no-repeat;
 }
@@ -1479,7 +1476,6 @@ transform: translate(0px,0px);
     text-align: center;
     /* text-transform: uppercase; */
     color: white;
-    letter-spacing: 4px;
     font-size: 16px;
     line-height: 22px;
 }
